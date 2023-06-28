@@ -2,7 +2,7 @@
 
 This project is a simple implementation of the classic game "Rock-Paper-Scissors" using HTML, CSS, and JavaScript. It allows users to play against the computer and keeps track of the score. The game is best of 5 points and the first to score 5 points wins. ***Currently the page is only desktop compatible and I'm working on smartphone compatiblity.***
 
-![Image](resources/Rock-Paper-Scissor-SS.png)
+![Image]("resources/Rock-Paper-Scissor-SS.png")
 
 * Demo
 * Features
