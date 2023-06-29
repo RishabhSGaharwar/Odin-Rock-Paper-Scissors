@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scisssors!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="result">
+        <div class="choices">
+            <div class="userchoice">
+                Welcome to Rock-Paper-Scisssors!
+            </div>
+            <div class="computerchoice">
+                First to score 5 points Wins!
+            </div>
+        </div>
+        <div class="verdict">
+            
+        </div>
+    </div>
+
+    <div class="choices">
+        <div class="image" data-selection = "rock" >
+            <img src="resources/rock.jpg" alt="rock" class="rockimg">
+            <p class="caption">Rock</p>
+        </div>
+
+        <div class="image" data-selection = "paper">
+            <img src="resources/paper.jpg" alt="paper" class="paperimg">
+            <p class="caption">Paper</p>
+        </div>
+
+        <div class="image" data-selection = "scissors">
+            <img src="resources/scissors.jpg" alt="scissors" class="scissorsimg">
+            <p class="caption">Scissors</p>
+        </div>
+    </div>
+
+    <div class="scores">
+        <div class="user">
+            Your Score : 0
+        </div>
+        <div class="computer">
+            Computer Score : 0
+        </div>
+    </div>
+    <div class="reset">
+        <button class="retry">Play Again?</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
